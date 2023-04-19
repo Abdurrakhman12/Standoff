@@ -23,6 +23,8 @@ nav a{
     padding: 15px;
     margin: 20px;
     background-color: blueviolet;
+    
+    
 }
 .blocks{
     display: flex;
@@ -30,7 +32,8 @@ nav a{
     align-items: center;
     flex-flow: wrap;
     margin-top: 100px;
-    ;
+
+   
 }
 footer{
     background-color: black;
@@ -47,4 +50,9 @@ color: white;
 .div3{
     margin-left: 40px;
     margin-bottom: 1px;
+}
+.block img{
+    border-radius: 30px;
+    box-shadow: 0 0 15px;
+
 }
