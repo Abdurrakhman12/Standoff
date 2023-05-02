@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
 .text1 h1{
 font-size: 50px;
@@ -15,6 +16,7 @@ font-size: 50px;
         background-color: blueviolet;
         color: white;
         border-radius: 30px;
+       
         
         
     }
@@ -23,7 +25,10 @@ font-size: 50px;
         justify-content: space-around;
         align-items: center;
         background-color: blueviolet;
-        height: 80px;
+        min-height: 80px;
+        flex-direction: column;
+        border-top: 10px;
+        border-bottom: 10px;
         
     
     }
@@ -65,3 +70,17 @@ footer{
     display: flex;
     align-items: center;
 }
+
+@media(max-width:600px){
+    .div1{
+        width: 500px;
+        flex-flow: column;
+    }
+}
+@media(max-width:450px){
+    .div0 {
+        width:500px;
+        padding: 100pxs;
+    }
+}
+    
