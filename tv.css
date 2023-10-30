@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    min-height: 70px;
+
+}
+
+nav a {
+    color: white;
+
+}
+
+.div1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 15px blue;
+    -webkit-animation: abdu 2s infinite;
+}
+
+.div1 img {
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+
+    -webkit-animation: sezim 2s infinite;
+}
+
+.text1 {
+    margin-left: 30px;
+}
+
+
+
+.div2 {
+    margin-top: 50px;
+    box-shadow: 0 0 16px blue;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.div2 img {
+    border-radius: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background-color: darkblue;
+}
+
+.links {
+    display: flex;
+
+
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+
+.div0 {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 26, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.carousel-inner {
+    width: 400px;
+}
+
+#demo {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.div0 img {
+    border-radius: 50px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    clip-path: circle();
+    shape-outside: circle();
+
+}
+
+@media(max-width:500px) {
+    nav {
+        flex-flow: column;
+
+    }
+
+    nav a {
+        margin: 10px;
+    }
+
+    .div1 {
+        flex-flow: column;
+        padding: 10px;
+    }
+
+    .div1 img {
+        width: 200px;
+        -webkit-animation: 2s infinite;
+    }
+}
+
+@keyframes abdu {
+    0% {
+        box-shadow: 0 0 10px red, 0 0 15px red;
+    }
+
+    100% {
+        box-shadow: 0 0 5px green, 0 0 10px green;
+    }
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: chartreuse;
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px green;
+}
+
+@keyframes sezim {
+    0% {
+        border: 5px green solid;
+        ;
+    }
+
+    100% {
+        border: 5px red solid;
+
+    }
+}

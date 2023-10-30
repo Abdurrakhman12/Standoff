@@ -1,122 +1,27 @@
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: blueviolet;
-    min-height: 80px;
-    
-
-}
-nav img{
-    width: 130px;
-}
-nav a{
-    color: white; 
-    text-decoration: none;
-    font-size: 20px;
-}
 .div1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 0 20px black;
 }
-.text1 h1{
-font-size: 50px;
+.div1 img{
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
-.btn1{
-    width: 300px;
-    background-color: blueviolet;
-    color: aliceblue;
-    box-shadow: 0 0 15px black;
-}
+
 .div2{
-    background-color: blueviolet;
-    color: white;
-    border-radius: 30px;
-}
-.div3{
-    display: flex;
-    background-color: blueviolet;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    border-radius: 30px;
-    padding: 30px;
-}
-.btn3{
-    background-color: white;
-    width: 200px;
-}
-footer{
-    background-color: black;
-    color: white;
-    height: 70px;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-}
-.div3 img{
-    border-radius: 30px;
-}
-.div4{
-    background-color: blueviolet;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 100px;
-    border-radius: 30px;
-    padding: 10px;
-    
+    box-shadow: 0 0 20px black;
 }
-.div4 img{
-    border-radius: 25px;
+.div2 img{
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 10px;
 }
-.text4{
-     margin-left: 80px;
+nav img{
+    width: 70px;
+    border-radius: 20px;
 }
-@media(max-width:800px){
-    .div1 img{
-    width: 300px;
-    }
-    .div3 img{
-        width: 200px;
-    }
-    .div4 img{
-        width: 200px;
-    }
-    .text4{
-        margin-left: 30px;
-    }
-}
-@media(max-width:600px){
-    nav{
-        flex-flow: column;
-    }
-    .div1 img{
-
-    width: 200px;
-    }
-    .div1 button{
-        width: 200px;
-    }
-    nav a{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .div4{
-        flex-direction: column;
-    }
-
-}
-@media (max-width:450px){
-    .div1{
-        flex-flow: column;
-    }
-    .div3{
-        flex-direction: column;
-    }
-}
-
-

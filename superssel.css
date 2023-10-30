@@ -1,0 +1,154 @@
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-animation: abdu 2s infinite;
+}
+
+.text1 {
+    -webkit-animation: baton 2s infinite;
+}
+
+.div1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-animation: abukow 2s infinite;
+}
+
+.text2 {
+    -webkit-animation: ilya 2s infinite;
+}
+
+.div2 img {
+
+    border-radius: 50px;
+}
+
+.div3 {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-animation: sezim 2s infinite;
+
+}
+
+.div3 img {
+    border-radius: 50px;
+}
+
+.text3 {
+    color: white;
+    -webkit-animation: ali 2s infinite;
+}
+
+@keyframes abdu {
+    0% {
+        box-shadow: 0 0 20px black;
+        box-shadow: 0 0 30px black;
+    }
+
+    100% {
+        box-shadow: 0 0 50px blue;
+        box-shadow: 0 0 60px blue;
+    }
+}
+
+@keyframes abukow {
+
+    0% {
+        box-shadow: 0 0 20px black;
+        box-shadow: 0 0 30px black;
+    }
+
+    100% {
+        box-shadow: 0 0 50px blue;
+        box-shadow: 0 0 60px blue;
+    }
+}
+
+@keyframes sezim {
+
+    0% {
+        box-shadow: 0 0 20px black;
+        box-shadow: 0 0 30px black;
+    }
+
+    100% {
+        box-shadow: 0 0 50px blue;
+        box-shadow: 0 0 60px blue;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px black;
+}
+
+@keyframes ali {
+    0% {
+        color: blue;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@keyframes baton {
+    0% {
+        color: blue;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+@keyframes ilya {
+    0% {
+        color: blue;
+    }
+
+    100% {
+        color: black;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background-color: aquamarine;
+}
+
+.links {
+    display: flex;
+
+
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}

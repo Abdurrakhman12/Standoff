@@ -1,12 +1,11 @@
-
 nav {
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-background-color: aqua;
-width: 100%;
-min-height:60px ;
+    background-color: aqua;
+    width: 100%;
+    min-height: 60px;
 
 
 }
@@ -14,20 +13,23 @@ min-height:60px ;
 
 
 
-footer{
+footer {
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.div h2{
+
+.div h2 {
     color: black;
 }
-.div2 p{
+
+.div2 p {
     color: black;
 }
-.div0{
+
+.div0 {
     background-color: aqua;
     box-shadow: 0 0 20px black;
     border-radius: 40px;
@@ -35,36 +37,41 @@ footer{
     justify-content: space-around;
     align-items: center;
     width: 1000px;
-    margin: 0 auto; 
+    margin: 0 auto;
 
 
 }
 
-@media (max-width:900px){
-    .div0{
+@media (max-width:900px) {
+    .div0 {
         width: 700px;
     }
-    nav a{
+
+    nav a {
         font-size: 20px;
     }
 }
-@media (max-width:700px){
-    .div0{
+
+@media (max-width:700px) {
+    .div0 {
         width: 500px;
         flex-flow: column;
         padding: 10px;
     }
-    nav{
+
+    nav {
         flex-flow: column;
-        
+
     }
-    nav a{
+
+    nav a {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 }
-@media (max-width:500px){
-    .div0{
+
+@media (max-width:500px) {
+    .div0 {
         width: 300px;
     }
 }
